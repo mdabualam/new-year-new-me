@@ -1,0 +1,71 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+/* banner sytes in header */
+.img-container {
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 40%;
+    text-align: right;
+    gap: 24px;
+    
+}
+
+.banner-title {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+.banner-info {
+    font-size: 16px;
+    color: #000000;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    background: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-top: 10px;
+}
+/* styles for section failure */
+
+main{
+    display: flex;
+    gap: 50px;
+    
+    align-items: center;
+    
+}
+.section-title{
+    font-size: 40px;
+    width: 290px;
+    
+}
+.section-info{
+    font-size: 16px;
+    width: 400px;
+   
+}
+.section-list{
+    width: 350px;
+    height: 160px;
+    margin-top: 50px;
+}
+.plan-head{
+    text-align: center;
+}
