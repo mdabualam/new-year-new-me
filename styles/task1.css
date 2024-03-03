@@ -1,0 +1,230 @@
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    display: absolute;
+    background: url('../images/banner/banner1.png');
+    width: 1600px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.header-title{
+    padding-top: 220px;
+    width: 525px;
+    margin-left: 845px;
+    margin-right: 230px;  
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.header-info{
+    width: 500px;
+    margin-left: 860px;
+    margin-right: 230px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px; 
+}
+.btn-primary{
+    width: 160px;
+    margin-left: 1200px;
+    margin-right: 230px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 15px 20px;
+    border: 0;
+}
+
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 300px;
+    gap: 100px;
+    margin-top: 100px;
+}
+.failure{
+    /* position: absolute; */
+    margin-top: 150px;
+    display: flex;
+}
+.failure-image{
+    width: 569px;
+    height: 723px;
+}
+.failure-title{
+    width: 290px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.failure-info{
+    width: 420px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.failure-common{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.btn-tick i{
+    color: #16D887;
+}.plans{
+    width: 1140px;
+    margin: 130px 230px;
+}
+
+.my-plans{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.plans-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.plan-details{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-details h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    line-height: 15px;  
+}
+.plan-details p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    line-height: 1px;
+}
+
+.positive{
+    position: relative;
+    margin: 130px 230px;
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    
+}
+.positive-message{
+    width: 1140px;
+    height: 300px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 65px;
+    padding-top: 10px;
+    
+    border-radius: 8px;
+
+    background: linear-gradient(90.00deg, rgb(241, 91, 34),rgba(241, 91, 34, 0.62) 37.646%,rgba(241, 91, 34, 0.58) 41.531%,rgba(241, 91, 34, 0.48) 52.115%,rgba(241, 91, 34, 0) 100%);
+        
+}
+.btn-call{
+    width: 160px;
+    font-size: 20px;
+    color:  #F15B22;
+    font-weight: 600;
+    border-radius: 5px;
+    background:#FFFFFF ;
+    padding: 15px 20px;
+    border: 0;
+}
+.positive-message h3{
+    width: 540px;
+}
+
+footer{
+    width: 1600px;
+    height: 580px;
+    background-color: #151414;
+}
+.footer-column{
+    display: flex;
+    margin: 130px 230px;
+    justify-content: space-between;
+}
+.future{
+    width: 485px;
+    height: 317px;
+    
+}
+.future-title{
+    width: 148px;
+    height: 53px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #F8F8F8;
+    padding-top: 100px;
+   
+}
+.subscribe{
+    width: 325px;
+    height: 200px;
+    display: block;
+    text-align: left;
+    padding-top: 100px;
+}
+.future-info{
+    width: 485px;
+    height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.email, .phone{
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.subscribe-title{
+    width: 125px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.enter-email{
+    width: 325px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    color: #f3f3f3;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+}
+.btn-subscribe{
+    width: 160px;
+    font-size: 20px;
+    color:   #FFFFFF;
+    font-weight: 600;
+    border-radius: 5px;
+    background:#F15B22;
+    padding: 15px 20px;
+    border: 0;
+}
+.image-link a{
+    margin-right: 25px;
+}
